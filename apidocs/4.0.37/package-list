@@ -1,0 +1,17 @@
+com.caucho.burlap.client
+com.caucho.burlap.io
+com.caucho.burlap.server
+com.caucho.hessian
+com.caucho.hessian.client
+com.caucho.hessian.io
+com.caucho.hessian.jmx
+com.caucho.hessian.micro
+com.caucho.hessian.mux
+com.caucho.hessian.security
+com.caucho.hessian.server
+com.caucho.hessian.test
+com.caucho.hessian.util
+com.caucho.services.client
+com.caucho.services.message
+com.caucho.services.name
+com.caucho.services.server
