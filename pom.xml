@@ -3,7 +3,7 @@
 	<groupId>com.caucho</groupId>
 	<artifactId>hessian</artifactId>
 	<packaging>jar</packaging>
-	<version>4.0.37</version>
+	<version>4.0.37.1</version>
 	<name>Hessian</name>
 	<description>
 		Hessian is a compact binary protocol for connecting web services.
