@@ -316,8 +316,8 @@ public class ContextSerializerFactory {
                                      HashSet<String> fileList,
                                      HashMap<Class, Class> classMap,
                                      Class type) {
-        try {
-            ClassLoader classLoader = getClassLoader();
+        try { // ClassLoader classLoader = getClassLoader(); // fix Serializer/Deserializer classloader problem
+            ClassLoader classLoader = ContextSerializerFactory.class.getClassLoader(); 
 
             // on systems with the security manager enabled, the system classloader
             // is null
