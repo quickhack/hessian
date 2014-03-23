@@ -323,6 +323,7 @@ public class ContextSerializerFactory
   {
     try {
       ClassLoader classLoader = getClassLoader();
+      System.out.printf("+Find classloader: %s\n", classLoader.toString());
 
       
       // on systems with the security manager enabled, the system classloader
@@ -334,7 +335,7 @@ public class ContextSerializerFactory
       
       iter = classLoader.getResources(fileName);
       while (iter.hasMoreElements()) {
-        URL url = (URL) iter.nextElement();
+        URL url = (URL) iter.nextElement(); System.out.printf("+Find resource: %s\n", url.toString());
 
         if (fileList.contains(url.toString()))
           continue;
