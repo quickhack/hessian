@@ -1,7 +1,7 @@
 package hessian;
 
-import com.caucho.hessian.test.A0;
-import com.caucho.hessian.test.TestCons;
+import com.ace4j.com.caucho.hessian.test.A0;
+import com.ace4j.com.caucho.hessian.test.TestCons;
 
 import org.junit.Test;
 

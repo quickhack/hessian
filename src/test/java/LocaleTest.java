@@ -1,11 +1,3 @@
-import com.caucho.hessian.io.AbstractHessianOutput;
-import com.caucho.hessian.io.Hessian2Input;
-import com.caucho.hessian.io.Hessian2Output;
-import com.caucho.hessian.io.SerializerFactory;
-
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.InputStream;
 import java.util.Locale;
 
 import org.junit.Test;
