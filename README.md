@@ -1,4 +1,4 @@
 hessian
 ===================
 
-source code of hessian 4.0.37: <http://hessian.caucho.com/>.
+source code of hessian: <http://hessian.caucho.com/>.
