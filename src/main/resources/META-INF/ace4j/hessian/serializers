@@ -1,6 +1,6 @@
-com.caucho.hessian.io.HessianRemoteObject=com.caucho.hessian.io.RemoteSerializer
-com.caucho.burlap.io.BurlapRemoteObject=com.caucho.hessian.io.RemoteSerializer
-java.io.File=com.caucho.hessian.io.StringValueSerializer
-java.math.BigDecimal=com.caucho.hessian.io.StringValueSerializer
-java.util.Locale=com.caucho.hessian.io.LocaleSerializer
-javax.management.ObjectName=com.caucho.hessian.io.StringValueSerializer
+com.ace4j.com.caucho.hessian.io.HessianRemoteObject=com.ace4j.com.caucho.hessian.io.RemoteSerializer
+com.ace4j.com.caucho.burlap.io.BurlapRemoteObject=com.ace4j.com.caucho.hessian.io.RemoteSerializer
+java.io.File=com.ace4j.com.caucho.hessian.io.StringValueSerializer
+java.math.BigDecimal=com.ace4j.com.caucho.hessian.io.StringValueSerializer
+java.util.Locale=com.ace4j.com.caucho.hessian.io.LocaleSerializer
+javax.management.ObjectName=com.ace4j.com.caucho.hessian.io.StringValueSerializer
